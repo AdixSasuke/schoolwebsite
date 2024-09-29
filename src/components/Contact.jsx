@@ -38,7 +38,7 @@ const Contact = () => {
           />
           <div className="relative z-10">
             <h2 className="text-white text-2xl font-bold mb-4">GET IN TOUCH</h2>
-            <div className="flex items-center mb-4">
+            <div className="flex flex-col lg:flex-row items-center mb-4">
               <div className="bg-white p-4 rounded-full mr-4">
                 <img src={build} alt="Location" className="w-8 h-8" />
               </div>
@@ -49,16 +49,16 @@ const Contact = () => {
                   Sanganer, Jaipur - 302 033</p>
               </div>
             </div>
-            <div className="flex items-center mb-4">
+            <div className="flex items-center mb-4 flex-col lg:flex-row">
               <div className="bg-white p-4 rounded-full mr-4">
                 <img src={phone} alt="Phone" className="w-8 h-8" />
               </div>
               <div className="text-white">
                 <h3 className="font-bold">Call Us</h3>
-                <p>91+141-2796206 – 207 & 210</p>
+                <p>91+141-2796206 - 207 & 210</p>
               </div>
             </div>
-            <div className="flex items-center">
+            <div className="flex items-center flex-col lg:flex-row">
               <div className="bg-white p-4 rounded-full mr-4">
                 <img src={email} alt="Email" className="w-8 h-8" />
               </div>

@@ -4,7 +4,7 @@ import AboutUs from './components/AboutUs.jsx'
 import Academics from './components/Academics.jsx'
 import Announcements from './components/Announcements.jsx'
 import Gallery from './components/Gallery.jsx'
-import Contact from './components/Contact.JSX'
+import Contact from './components/Contact.jsx'
 
 
 const App = () => {
