@@ -35,17 +35,17 @@ const AboutUs = () => {
 
         <div className="bg-[#FECF96] flex flex-col  items-center p-5 rounded-lg col-span-3">
           <img src={chairman} className="w-[200px] rounded-full my-4 transform transition duration-300 hover:scale-110 shadow-black shadow-md" alt="Chairman" />
-          <h1 className="my-2">Aditya Khandelwal</h1>
-          <h1 className="mb-4">CHAIRMAN</h1>
+          <h1 className="my-2 text-xl font-semibold">Aditya Khandelwal</h1>
+          <h1 className="mb-4 font-medium">CHAIRMAN</h1>
           <p className="">
             It is our earnest endeavor to impart value-based education to children under our care. Our mission is not only to make successful Engineers, Doctors, Professionals, Businessmen, etc. but also to shape up good human beings of great values to espouse and spread the threefold cherished aspects of dharma Satyam, Shivam, and Sundaram. <br /><br />I pray for the internalization and universalization of these life-sustaining values. May God bless us all and endow us with the strength to achieve our noble goals.
           </p>
         </div>
 
         <div className="bg-[#FECF96] flex flex-col col-span-3 items-center p-5 rounded-lg">
-          <img src={principal} className="w-[200px] rounded-full my-4" alt="Principal" />
-          <h1 className="my-2">Aditya Khandelwal</h1>
-          <h1 className="mb-4">PRINCIPAL</h1>
+          <img src={principal} className="w-[200px] rounded-full my-4 transform transition duration-300 hover:scale-110 shadow-black shadow-md" alt="Principal" />
+          <h1 className="my-2 text-xl font-semibold">Aditya Khandelwal</h1>
+          <h1 className="mb-4 font-medium">PRINCIPAL</h1>
           <p>In the words of Swami Vivekanand: “We want education by which character is formed, strength of mind is increased, the intellect is expanded and by which one can stand on one's own feet.” <br /><br />This is apt even now in this era of digitalisation and artificial intelligence as it is only through increased mental strength and human intellect that the emerging technologies are expanding opportunities in the social and economical arena. The fusion of technologies is blurring the lines between physical, digital and biological spaces.</p>
         </div>
       </div>
